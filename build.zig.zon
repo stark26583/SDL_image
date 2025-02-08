@@ -3,8 +3,8 @@
     .version = "3.2.0",
     .dependencies = .{
         .sdl = .{
-            .url = "git+https://github.com/castholm/SDL#v0.1.4+SDL-3.2.2",
-            .hash = "122096d834053ebbc8a8ba37dd9ac4e8f35790b7aa6e98a72807cf428c3de255dd82",
+            .url = "git+https://github.com/castholm/SDL#v0.1.5+SDL-3.2.4",
+            .hash = "1220f653f5b656888b522bf5be06fc3062278767cfa7764e5d00eb559056d65b616f",
         },
         .sdl_image = .{
             .url = "git+https://github.com/libsdl-org/SDL_image#release-3.2.0",
