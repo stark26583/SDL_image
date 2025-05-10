@@ -9,7 +9,6 @@ pub fn build(b: *std.Build) void {
     const module = b.addModule("sdl_image", .{
         .target = target,
         .optimize = optimize,
-        .link_libc = true,
     });
 
     // Use stb_image for loading JPEG and PNG files. Native alternatives such as
