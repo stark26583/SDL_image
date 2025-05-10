@@ -17,10 +17,12 @@ pub fn build(b: *std.Build) void {
         }),
     });
 
-    const sdl = b.dependency("SDL", .{
+    const sdl_dep = b.option(*std.Build.Dependency, "sdl_dep", "Provide the SDL dependency for passing envs") orelse b.dependency("SDL", .{
         .target = target,
         .optimize = optimize,
-    }).artifact("SDL3");
+    });
+
+    const sdl = sdl_dep.artifact("SDL3");
     lib.linkLibrary(sdl);
 
     // Use stb_image for loading JPEG and PNG files. Native alternatives such as
