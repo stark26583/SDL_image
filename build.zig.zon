@@ -1,6 +1,6 @@
 .{
-    .name = .SDL_image,
-    .version = "3.2.0",
+    .name = .sdl_image,
+    .version = "3.2.4",
     .fingerprint = 0x7d6df3671d68a2f9,
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
