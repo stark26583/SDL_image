@@ -9,8 +9,8 @@
             .hash = "N-V-__8AAJB7IgJ65BPSqjqzt7j-5xKDklR0h8c11T60iemj",
         },
         .SDL = .{
-            .url = "git+https://github.com/stark26583/SDL.git#379438030f6a65cc745f868d52aa7e28cac44226",
-            .hash = "sdl-0.2.2+3.2.12-7uIn9E9EgwFwdi3d1M6xan-GUZ6FGJa-Q7-XrvVV-2jS",
+            .url = "git+https://github.com/stark26583/SDL.git#cab9459634d839c27f80e9bc7c624fd00a13f5e6",
+            .hash = "sdl-0.2.2+3.2.12-7uIn9BNFgwEOCbB2txgFEsQPM7ZdLrd0ahar5eNyN8AT",
         },
     },
     .paths = .{
